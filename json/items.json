@@ -20,5 +20,16 @@
     },
 
     "consumption_effect_on_conditions": ["ColaOrDie_EOC_SATISFY_COLA_CRAVING"]
+  },
+  {
+    "id": "zerocola",
+    "copy-from": "zerocola",
+    "type": "COMESTIBLE",
+
+    "name": {
+      "str": "diet cola"
+    },
+
+    "consumption_effect_on_conditions": ["ColaOrDie_EOC_SATISFY_COLA_CRAVING"]
   }
 ]
