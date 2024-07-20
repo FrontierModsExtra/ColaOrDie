@@ -6,7 +6,7 @@
     "recurrence": "24 h",
 
     "condition": { "u_has_effect": "cola_craving" },
-    "effect": { "u_set_hp": 0 },
+    "effect": [{ "u_set_hp": 0 }, { "u_lose_effect": "cola_craving" }],
     "false_effect": { "u_add_effect": "cola_craving", "duration": "PERMANENT" }
   },
   {
