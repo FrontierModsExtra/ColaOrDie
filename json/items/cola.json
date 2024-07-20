@@ -1,0 +1,24 @@
+[
+  {
+    "id": "cola",
+    "copy-from": "cola",
+    "type": "COMESTIBLE",
+
+    "name": {
+      "str": "dark cola"
+    },
+
+    "consumption_effect_on_conditions": ["ColaOrDie_EOC_SATISFY_COLA_CRAVING"]
+  },
+  {
+    "id": "colamdew",
+    "copy-from": "colamdew",
+    "type": "COMESTIBLE",
+
+    "name": {
+      "str": "energy cola"
+    },
+
+    "consumption_effect_on_conditions": ["ColaOrDie_EOC_SATISFY_COLA_CRAVING"]
+  }
+]

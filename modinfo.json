@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "cola_or_die",
+
+    "name": "Cola or Die",
+    "description": "Makes it a requirement to drink cola every day; failure results in death.",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "misc",
+
+    "dependencies": ["dda"],
+
+    "path": "json"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ColaOrDie_EOC_COLA_OR_DIE",
+    "type": "effect_on_condition",
+    "eoc_type": "RECURRING",
+    "recurrence": "24 h",
+
+    "condition": { "u_has_effect": "cola_craving" },
+    "effect": { "u_set_hp": 0 },
+    "false_effect": { "u_add_effect": "cola_craving", "duration": "PERMANENT" }
+  },
+  {
+    "id": "ColaOrDie_EOC_COLA_REMINDER",
+    "type": "effect_on_condition",
+    "eoc_type": "RECURRING",
+    "recurrence": "3 h",
+
+    "condition": { "u_has_effect": "cola_craving" },
+    "effect": {
+      "u_message": "Your body craves cola. Find and drink some cola.",
+      "type": "bad"
+    }
+  },
+  {
+    "id": "ColaOrDie_EOC_SATISFY_COLA_CRAVING",
+    "type": "effect_on_condition",
+
+    "effect": { "u_lose_effect": "cola_craving" }
+  }
+]

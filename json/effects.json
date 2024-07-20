@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cola_craving",
+    "type": "effect_type",
+
+    "name": ["Craving cola"],
+    "desc": [
+      "Your body requires cola to survive. You must consume at least one portion of pure cola (none of that cocktail nonsense) every 24 hours, or you will literally die."
+    ],
+
+    "apply_message": "COLA COLA COLA COLA COLA COLA COLA",
+    "remove_message": "Your craving for cola has been satisfied for today.",
+
+    "rating": "bad"
+  }
+]
