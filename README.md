@@ -14,7 +14,7 @@ It requires your character to consume cola every 24 hours. If you don't, you die
 
 ## Status
 
-This mod is **playable**. Target version: **0.H**. (There is a 0.G-compatible version available.)
+This mod is **playable**. Target version: **0.H**. (There is a [0.G-compatible version](https://github.com/FrontierModsExtra/ColaOrDie/) available.)
 
 ## License
 
